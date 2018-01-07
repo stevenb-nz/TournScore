@@ -2,7 +2,6 @@
 Begin Window newtourndialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -26,14 +25,13 @@ Begin Window newtourndialog
    Resizeable      =   True
    Title           =   "Tournament Details"
    Visible         =   True
-   Width           =   500
+   Width           =   612
    Begin PushButton okbutton
       AutoDeactivate  =   True
       Bold            =   False
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "OK"
-      ControlOrder    =   "0"
       Default         =   True
       Enabled         =   False
       Height          =   20
@@ -41,12 +39,13 @@ Begin Window newtourndialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   420
-      LockBottom      =   False
+      Left            =   532
+      LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
@@ -61,7 +60,6 @@ Begin Window newtourndialog
    Begin Label StaticText1
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "1"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -77,6 +75,7 @@ Begin Window newtourndialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   1
       TabPanelIndex   =   0
@@ -101,7 +100,6 @@ Begin Window newtourndialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "2"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -120,12 +118,9 @@ Begin Window newtourndialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
@@ -138,12 +133,11 @@ Begin Window newtourndialog
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
-      Width           =   337
+      Width           =   449
    End
    Begin Label StaticText3
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "3"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -159,6 +153,7 @@ Begin Window newtourndialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   3
       TabPanelIndex   =   0
@@ -179,7 +174,6 @@ Begin Window newtourndialog
       AutoDeactivate  =   True
       Bold            =   False
       Caption         =   "RR"
-      ControlOrder    =   "4"
       Enabled         =   True
       Height          =   20
       HelpTag         =   ""
@@ -192,6 +186,7 @@ Begin Window newtourndialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   4
       TabPanelIndex   =   0
       TabStop         =   True
@@ -208,7 +203,6 @@ Begin Window newtourndialog
       AutoDeactivate  =   True
       Bold            =   False
       Caption         =   "SS"
-      ControlOrder    =   "5"
       Enabled         =   False
       Height          =   20
       HelpTag         =   ""
@@ -221,6 +215,7 @@ Begin Window newtourndialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
@@ -237,7 +232,6 @@ Begin Window newtourndialog
       AutoDeactivate  =   True
       Bold            =   False
       Caption         =   "TT"
-      ControlOrder    =   "6"
       Enabled         =   True
       Height          =   20
       HelpTag         =   ""
@@ -250,6 +244,7 @@ Begin Window newtourndialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
@@ -265,7 +260,6 @@ Begin Window newtourndialog
    Begin Label StaticText2
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "7"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -281,8 +275,9 @@ Begin Window newtourndialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
-      TabIndex        =   7
+      TabIndex        =   8
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "Filename:"
@@ -295,7 +290,7 @@ Begin Window newtourndialog
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   312
+      Width           =   424
    End
    Begin PushButton cancelbutton
       AutoDeactivate  =   True
@@ -303,7 +298,6 @@ Begin Window newtourndialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "Cancel"
-      ControlOrder    =   "8"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -311,13 +305,14 @@ Begin Window newtourndialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   342
-      LockBottom      =   False
+      Left            =   454
+      LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   False
-      TabIndex        =   8
+      Scope           =   0
+      TabIndex        =   9
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
@@ -327,6 +322,35 @@ Begin Window newtourndialog
       Underline       =   False
       Visible         =   True
       Width           =   60
+   End
+   Begin RadioButton drawtypebutton
+      AutoDeactivate  =   True
+      Bold            =   False
+      Caption         =   "WW"
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   3
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   492
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   False
+      LockTop         =   False
+      Scope           =   0
+      TabIndex        =   7
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   48
+      Underline       =   False
+      Value           =   False
+      Visible         =   True
+      Width           =   100
    End
 End
 #tag EndWindow
