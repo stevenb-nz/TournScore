@@ -2,7 +2,6 @@
 Begin Window playerwindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -35,7 +34,6 @@ Begin Window playerwindow
       ColumnCount     =   6
       ColumnsResizable=   False
       ColumnWidths    =   "50%,30%,10%,10%,0%,0%"
-      ControlOrder    =   "0"
       DataField       =   ""
       DataSource      =   ""
       DefaultRowHeight=   -1
@@ -60,6 +58,7 @@ Begin Window playerwindow
       LockRight       =   True
       LockTop         =   True
       RequiresSelection=   False
+      Scope           =   0
       ScrollbarHorizontal=   False
       ScrollBarVertical=   True
       SelectionType   =   0
@@ -71,6 +70,7 @@ Begin Window playerwindow
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -87,7 +87,7 @@ End
 #tag Events playerlist
 	#tag Event
 		Sub DoubleClick()
-		  dim i,j as integer
+		  dim i,j,k as integer
 		  dim s as string
 		  
 		  if app.keepcheck then
@@ -98,19 +98,35 @@ End
 		      for i=0 to ubound(app.gamelist)
 		        if app.gamelist(i).round = j+1 and app.gamelist(i).played then
 		          if app.gamelist(i).p1 = s then
-		            playerhistorywindow.phistlist.addrow app.gamelist(i).p2
+		            playerhistorywindow.phistlist.addrow "Rd."+str(j+1)+" - "+app.gamelist(i).p2
 		            if app.gamelist(i).p1score > app.gamelist(i).p2score then
 		              playerhistorywindow.phistlist.cell(j*2,1) = str(1)
 		            else
 		              if app.gamelist(i).p2score > app.gamelist(i).p1score then
 		                playerhistorywindow.phistlist.cell(j*2,1) = str(0)
 		              else
-		                playerhistorywindow.phistlist.cell(j*2,1) = str(.5)
+		                if app.gamelist(i).p1attended = "present" then
+		                  if app.gamelist(i).p2attended = "present" then
+		                    playerhistorywindow.phistlist.cell(j*2,1) = str(.5)
+		                  else
+		                    playerhistorywindow.phistlist.cell(j*2,1) = str(1)
+		                  end
+		                else
+		                  playerhistorywindow.phistlist.cell(j*2,1) = str(0)
+		                end
 		              end if
 		            end if
 		            playerhistorywindow.phistlist.cell(j*2,2) = str(app.gamelist(i).p1score)
 		            playerhistorywindow.phistlist.cell(j*2,3) = str(app.gamelist(i).p2score)
-		            playerhistorywindow.phistlist.cell(j*2,4) = str(app.gamelist(i).p1score-app.gamelist(i).p2score)
+		            if app.gamelist(i).p1attended = "present" then
+		              if app.gamelist(i).p2attended = "present" then
+		                playerhistorywindow.phistlist.cell(j*2,4) = str(app.gamelist(i).p2score-app.gamelist(i).p1score)
+		              else
+		                playerhistorywindow.phistlist.cell(j*2,4) = str(50)
+		              end
+		            else
+		              playerhistorywindow.phistlist.cell(j*2,4) = str(0)
+		            end
 		            playerhistorywindow.phistlist.cell(j*2,5) = str(app.gamelist(i).p1bonus)
 		            playerhistorywindow.phistlist.addrow ""
 		            if j=0 then
@@ -128,19 +144,35 @@ End
 		            end if
 		          end if
 		          if app.gamelist(i).p2 = s then
-		            playerhistorywindow.phistlist.addrow app.gamelist(i).p1
+		            playerhistorywindow.phistlist.addrow "Rd."+str(j+1)+" - "+app.gamelist(i).p1
 		            if app.gamelist(i).p2score > app.gamelist(i).p1score then
 		              playerhistorywindow.phistlist.cell(j*2,1) = str(1)
 		            else
 		              if app.gamelist(i).p1score > app.gamelist(i).p2score then
 		                playerhistorywindow.phistlist.cell(j*2,1) = str(0)
 		              else
-		                playerhistorywindow.phistlist.cell(j*2,1) = str(.5)
+		                if app.gamelist(i).p2attended = "present" then
+		                  if app.gamelist(i).p1attended = "present" then
+		                    playerhistorywindow.phistlist.cell(j*2,1) = str(.5)
+		                  else
+		                    playerhistorywindow.phistlist.cell(j*2,1) = str(1)
+		                  end
+		                else
+		                  playerhistorywindow.phistlist.cell(j*2,1) = str(0)
+		                end
 		              end if
 		            end if
 		            playerhistorywindow.phistlist.cell(j*2,2) = str(app.gamelist(i).p2score)
 		            playerhistorywindow.phistlist.cell(j*2,3) = str(app.gamelist(i).p1score)
-		            playerhistorywindow.phistlist.cell(j*2,4) = str(app.gamelist(i).p2score-app.gamelist(i).p1score)
+		            if app.gamelist(i).p2attended = "present" then
+		              if app.gamelist(i).p1attended = "present" then
+		                playerhistorywindow.phistlist.cell(j*2,4) = str(app.gamelist(i).p2score-app.gamelist(i).p1score)
+		              else
+		                playerhistorywindow.phistlist.cell(j*2,4) = str(50)
+		              end
+		            else
+		              playerhistorywindow.phistlist.cell(j*2,4) = str(0)
+		            end
 		            playerhistorywindow.phistlist.cell(j*2,5) = str(app.gamelist(i).p2bonus)
 		            playerhistorywindow.phistlist.addrow ""
 		            if j=0 then
@@ -158,6 +190,10 @@ End
 		            end if
 		          end if
 		        end if
+		      next
+		      for k = 0 to 5
+		        playerhistorywindow.phistlist.CellBorderBottom(j*2,k)=ListBox.BorderThinDotted
+		        playerhistorywindow.phistlist.CellBorderBottom(j*2+1,k)=ListBox.BorderThinSolid
 		      next
 		    next
 		  else

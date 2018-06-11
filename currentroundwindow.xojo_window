@@ -2,7 +2,6 @@
 Begin Window currentroundwindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -54,6 +53,7 @@ Begin Window currentroundwindow
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -85,6 +85,7 @@ Begin Window currentroundwindow
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -116,6 +117,7 @@ Begin Window currentroundwindow
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -327,7 +329,7 @@ End
 		            t.write "  "
 		          end if
 		        end if
-		         t.write str(app.playerlist(i).tou(k).opponent)
+		        t.write str(app.playerlist(i).tou(k).opponent)
 		      next
 		      t.WriteLine ""
 		    next
@@ -443,16 +445,17 @@ End
 		  if ps.pagesetupDialog then
 		    page = openprinterdialog(ps)
 		    if page <> nil then
-		      MsgBox str(ubound(app.playerlist))
-		      
-		      
-		      if ubound(app.gradelist) < 2 then
+		      if ubound(app.gradelist) = 0 then
 		        c = 2
+		      elseif ubound(app.gradelist) = 1 then
+		        if ubound(app.playerlist) < 16 then
+		          c = 2
+		        else
+		          c = 1
+		        end if
 		      else
 		        c = 1
 		      end if
-		      
-		      
 		      page.textfont="Times"
 		      page.textsize=21
 		      page.bold = true
@@ -469,7 +472,7 @@ End
 		        page.bold = true
 		        page.textsize = 14
 		        playeroffsety = playeroffsety+15*c
-		        page.drawstring app.gradelist(k).gradename+" Grade",playeroffsetx,playeroffsety
+		        page.drawstring app.gradelist(k).gradename+" Grade after Game "+str(round),playeroffsetx,playeroffsety
 		        page.textsize = 10*c
 		        redim tempplayers(-1)
 		        for m = 0 to ubound(app.playerlist)
