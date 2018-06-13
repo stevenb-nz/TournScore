@@ -1064,6 +1064,8 @@ Inherits Application
 
 	#tag Method, Flags = &h0
 		Sub savetournfile()
+		  'define schema for SQLite
+		  
 		  dim i as integer
 		  dim t as textoutputStream
 		  
