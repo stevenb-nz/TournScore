@@ -2,7 +2,6 @@
 Begin Window rounddialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -10,7 +9,7 @@ Begin Window rounddialog
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   160
+   Height          =   163
    ImplicitInstance=   True
    LiveResize      =   False
    MacProcID       =   0
@@ -26,11 +25,10 @@ Begin Window rounddialog
    Resizeable      =   True
    Title           =   "Round Details"
    Visible         =   True
-   Width           =   300
+   Width           =   303
    Begin Label gnfield
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "0"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -39,18 +37,19 @@ Begin Window rounddialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   203
+      Left            =   107
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Label:"
+      Text            =   "23"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
@@ -60,7 +59,7 @@ Begin Window rounddialog
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   60
+      Width           =   19
    End
    Begin TextField stfield
       AcceptTabs      =   False
@@ -70,7 +69,6 @@ Begin Window rounddialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "1"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -89,12 +87,9 @@ Begin Window rounddialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
@@ -104,6 +99,7 @@ Begin Window rounddialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   67
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -117,7 +113,6 @@ Begin Window rounddialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "2"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -136,12 +131,9 @@ Begin Window rounddialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
@@ -151,6 +143,7 @@ Begin Window rounddialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   93
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -159,7 +152,6 @@ Begin Window rounddialog
    Begin Label StaticText1
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "3"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -175,6 +167,7 @@ Begin Window rounddialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   3
       TabPanelIndex   =   0
@@ -189,12 +182,11 @@ Begin Window rounddialog
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   91
    End
    Begin Label StaticText2
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "4"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -210,6 +202,7 @@ Begin Window rounddialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   4
       TabPanelIndex   =   0
@@ -229,7 +222,6 @@ Begin Window rounddialog
    Begin Label StaticText3
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "5"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -245,6 +237,7 @@ Begin Window rounddialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   5
       TabPanelIndex   =   0
@@ -267,7 +260,6 @@ Begin Window rounddialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "OK"
-      ControlOrder    =   "6"
       Default         =   True
       Enabled         =   True
       Height          =   20
@@ -281,6 +273,7 @@ Begin Window rounddialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
@@ -288,6 +281,7 @@ Begin Window rounddialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   123
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -298,7 +292,6 @@ Begin Window rounddialog
       ButtonStyle     =   "0"
       Cancel          =   True
       Caption         =   "Cancel"
-      ControlOrder    =   "7"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -312,6 +305,7 @@ Begin Window rounddialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   7
       TabPanelIndex   =   0
       TabStop         =   True
@@ -319,6 +313,7 @@ Begin Window rounddialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   123
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -326,7 +321,6 @@ Begin Window rounddialog
    Begin Label StaticText4
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "8"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -342,6 +336,7 @@ Begin Window rounddialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   8
       TabPanelIndex   =   0
@@ -361,7 +356,6 @@ Begin Window rounddialog
    Begin Label dfield
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "9"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -377,6 +371,7 @@ Begin Window rounddialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   9
       TabPanelIndex   =   0
@@ -396,7 +391,6 @@ Begin Window rounddialog
    Begin UpDownArrows UpDownArrows1
       AcceptFocus     =   False
       AutoDeactivate  =   True
-      ControlOrder    =   "10"
       Enabled         =   True
       Height          =   23
       HelpTag         =   ""
@@ -408,12 +402,81 @@ Begin Window rounddialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   10
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   41
+      Transparent     =   False
       Visible         =   True
       Width           =   13
+   End
+   Begin Label Label1
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   16
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   138
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   False
+      LockTop         =   False
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   11
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "Draw Type:"
+      TextAlign       =   0
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   12.0
+      TextUnit        =   0
+      Top             =   20
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   70
+   End
+   Begin PopupMenu drawtypePopupMenu
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      InitialValue    =   "RR\nKotH\n"
+      Italic          =   False
+      Left            =   205
+      ListIndex       =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   0
+      TabIndex        =   12
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   16
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   77
    End
 End
 #tag EndWindow

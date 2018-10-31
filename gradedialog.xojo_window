@@ -9,7 +9,7 @@ Begin Window gradedialog
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   147
+   Height          =   154
    ImplicitInstance=   True
    LiveResize      =   False
    MacProcID       =   0
@@ -119,7 +119,7 @@ Begin Window gradedialog
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Number:"
+      Text            =   "Number in Grade:"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
@@ -129,7 +129,7 @@ Begin Window gradedialog
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   54
+      Width           =   123
    End
    Begin PushButton PushButton1
       AutoDeactivate  =   True
@@ -232,7 +232,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   47
+      Top             =   50
       Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
@@ -257,7 +257,7 @@ Begin Window gradedialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   72
+      Left            =   124
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -276,7 +276,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   83
+      Top             =   81
       Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
@@ -284,41 +284,6 @@ Begin Window gradedialog
       Width           =   40
    End
    Begin Label gnumfield
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   16
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   223
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   False
-      LockRight       =   False
-      LockTop         =   False
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   7
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "Label:"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   12.0
-      TextUnit        =   0
-      Top             =   16
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   60
-   End
-   Begin Label StaticText4
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -338,52 +303,20 @@ Begin Window gradedialog
       Multiline       =   False
       Scope           =   0
       Selectable      =   False
-      TabIndex        =   8
+      TabIndex        =   7
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Draw Type:"
+      Text            =   "0"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   86
+      Top             =   16
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   70
-   End
-   Begin PopupMenu drawtypePopupMenu
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      InitialValue    =   ""
-      Italic          =   False
-      Left            =   198
-      ListIndex       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Scope           =   0
-      TabIndex        =   9
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   82
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   85
+      Width           =   60
    End
 End
 #tag EndWindow
