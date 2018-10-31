@@ -119,7 +119,7 @@ Begin Window gradedialog
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Number in Grade:"
+      Text            =   "Number:"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
@@ -129,7 +129,7 @@ Begin Window gradedialog
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   106
+      Width           =   54
    End
    Begin PushButton PushButton1
       AutoDeactivate  =   True
@@ -257,7 +257,7 @@ Begin Window gradedialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   124
+      Left            =   72
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -276,7 +276,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   80
+      Top             =   83
       Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
@@ -329,7 +329,7 @@ Begin Window gradedialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   176
+      Left            =   124
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
@@ -353,48 +353,37 @@ Begin Window gradedialog
       Visible         =   True
       Width           =   70
    End
-   Begin TextField drawtfield
-      AcceptTabs      =   False
-      Alignment       =   0
+   Begin PopupMenu drawtypePopupMenu
       AutoDeactivate  =   True
-      AutomaticallyCheckSpelling=   False
-      BackColor       =   &cFFFFFF00
       Bold            =   False
-      Border          =   True
-      CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Format          =   ""
-      Height          =   22
+      Height          =   20
       HelpTag         =   ""
       Index           =   -2147483648
+      InitialParent   =   ""
+      InitialValue    =   ""
       Italic          =   False
-      Left            =   243
-      LimitText       =   0
+      Left            =   198
+      ListIndex       =   0
       LockBottom      =   False
       LockedInPosition=   False
-      LockLeft        =   False
+      LockLeft        =   True
       LockRight       =   False
-      LockTop         =   False
-      Mask            =   ""
-      Password        =   False
-      ReadOnly        =   False
+      LockTop         =   True
       Scope           =   0
       TabIndex        =   9
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   ""
-      TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   12.0
+      TextSize        =   0.0
       TextUnit        =   0
-      Top             =   80
+      Top             =   82
       Transparent     =   False
       Underline       =   False
-      UseFocusRing    =   True
       Visible         =   True
-      Width           =   40
+      Width           =   85
    End
 End
 #tag EndWindow
