@@ -2,7 +2,6 @@
 Begin Window gradedialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -30,7 +29,6 @@ Begin Window gradedialog
    Begin Label StaticText1
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "0"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -46,6 +44,7 @@ Begin Window gradedialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   0
       TabPanelIndex   =   0
@@ -65,7 +64,6 @@ Begin Window gradedialog
    Begin Label StaticText2
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "1"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -81,6 +79,7 @@ Begin Window gradedialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   1
       TabPanelIndex   =   0
@@ -91,7 +90,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   50
+      Top             =   53
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -100,7 +99,6 @@ Begin Window gradedialog
    Begin Label StaticText3
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "2"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -116,6 +114,7 @@ Begin Window gradedialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   2
       TabPanelIndex   =   0
@@ -126,11 +125,11 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   83
+      Top             =   86
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   114
+      Width           =   106
    End
    Begin PushButton PushButton1
       AutoDeactivate  =   True
@@ -138,7 +137,6 @@ Begin Window gradedialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "OK"
-      ControlOrder    =   "3"
       Default         =   True
       Enabled         =   True
       Height          =   20
@@ -146,12 +144,13 @@ Begin Window gradedialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   227
+      Left            =   223
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   3
       TabPanelIndex   =   0
       TabStop         =   True
@@ -159,6 +158,7 @@ Begin Window gradedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   114
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -169,7 +169,6 @@ Begin Window gradedialog
       ButtonStyle     =   "0"
       Cancel          =   True
       Caption         =   "Cancel"
-      ControlOrder    =   "4"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -183,6 +182,7 @@ Begin Window gradedialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   4
       TabPanelIndex   =   0
       TabStop         =   True
@@ -190,6 +190,7 @@ Begin Window gradedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   114
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -202,7 +203,6 @@ Begin Window gradedialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "5"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -213,7 +213,7 @@ Begin Window gradedialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   114
+      Left            =   110
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -221,12 +221,9 @@ Begin Window gradedialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
@@ -236,6 +233,7 @@ Begin Window gradedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   47
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -249,7 +247,6 @@ Begin Window gradedialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "6"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -260,7 +257,7 @@ Begin Window gradedialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   207
+      Left            =   124
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -268,12 +265,9 @@ Begin Window gradedialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
@@ -283,15 +277,15 @@ Begin Window gradedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   80
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
-      Width           =   80
+      Width           =   40
    End
    Begin Label gnumfield
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "7"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -300,13 +294,14 @@ Begin Window gradedialog
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   227
+      Left            =   223
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   7
       TabPanelIndex   =   0
@@ -322,6 +317,84 @@ Begin Window gradedialog
       Underline       =   False
       Visible         =   True
       Width           =   60
+   End
+   Begin Label StaticText4
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   16
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   176
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   False
+      LockTop         =   False
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   8
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "Draw Type:"
+      TextAlign       =   0
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   12.0
+      TextUnit        =   0
+      Top             =   86
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   70
+   End
+   Begin TextField drawtfield
+      AcceptTabs      =   False
+      Alignment       =   0
+      AutoDeactivate  =   True
+      AutomaticallyCheckSpelling=   False
+      BackColor       =   &cFFFFFF00
+      Bold            =   False
+      Border          =   True
+      CueText         =   ""
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Format          =   ""
+      Height          =   22
+      HelpTag         =   ""
+      Index           =   -2147483648
+      Italic          =   False
+      Left            =   243
+      LimitText       =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   False
+      LockTop         =   False
+      Mask            =   ""
+      Password        =   False
+      ReadOnly        =   False
+      Scope           =   0
+      TabIndex        =   9
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   ""
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   12.0
+      TextUnit        =   0
+      Top             =   80
+      Transparent     =   False
+      Underline       =   False
+      UseFocusRing    =   True
+      Visible         =   True
+      Width           =   40
    End
 End
 #tag EndWindow
