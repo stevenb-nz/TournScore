@@ -120,7 +120,14 @@ Inherits Application
 		    s = t.readline
 		    check = ParseDate(s, d)
 		    ro.rounddate = d
-		    ro.spotprize = t.readline
+		    s = t.readline
+		    if instr(s,"/") = 0 then
+		      ro.spotprize = s
+		      ro.drawtype = "RR"
+		    else
+		      ro.spotprize = left(s,instr(s,"/")-1)
+		      ro.drawtype = right(s,len(s)-instr(s,"/"))
+		    end if
 		    ro.starttime = t.readline
 		    roundlist.append ro
 		  next
@@ -1082,7 +1089,7 @@ Inherits Application
 		    t.writeline str(ubound(roundlist))
 		    for i=0 to ubound(roundlist)
 		      t.writeline roundlist(i).rounddate.longdate
-		      t.writeline roundlist(i).spotprize
+		      t.writeline roundlist(i).spotprize + "/" + roundlist(i).drawtype
 		      t.writeline roundlist(i).starttime
 		    next
 		    t.writeline str(ubound(playerlist))
