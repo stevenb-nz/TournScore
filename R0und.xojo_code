@@ -1,6 +1,10 @@
 #tag Class
 Protected Class R0und
 	#tag Property, Flags = &h0
+		drawtype As String
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
 		rounddate As date
 	#tag EndProperty
 

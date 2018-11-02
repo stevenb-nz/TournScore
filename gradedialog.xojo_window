@@ -9,7 +9,7 @@ Begin Window gradedialog
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   154
+   Height          =   148
    ImplicitInstance=   True
    LiveResize      =   False
    MacProcID       =   0
@@ -90,7 +90,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   53
+      Top             =   47
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -125,7 +125,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   86
+      Top             =   80
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -157,7 +157,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   114
+      Top             =   108
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -189,7 +189,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   114
+      Top             =   108
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -232,7 +232,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   50
+      Top             =   44
       Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
@@ -276,7 +276,7 @@ Begin Window gradedialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   81
+      Top             =   75
       Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
