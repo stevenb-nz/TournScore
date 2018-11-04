@@ -166,23 +166,23 @@ Begin Window newtourndialog
       TextFont        =   "System"
       TextSize        =   12.0
       TextUnit        =   0
-      Top             =   48
+      Top             =   47
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   70
+      Width           =   71
    End
    Begin RadioButton drawtypebutton
       AutoDeactivate  =   True
       Bold            =   False
-      Caption         =   "RR"
+      Caption         =   "Individuals"
       Enabled         =   True
       Height          =   20
       HelpTag         =   ""
       Index           =   0
       InitialParent   =   ""
       Italic          =   False
-      Left            =   156
+      Left            =   143
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
@@ -195,7 +195,7 @@ Begin Window newtourndialog
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   48
+      Top             =   49
       Transparent     =   False
       Underline       =   False
       Value           =   True
@@ -205,44 +205,14 @@ Begin Window newtourndialog
    Begin RadioButton drawtypebutton
       AutoDeactivate  =   True
       Bold            =   False
-      Caption         =   "SS"
-      Enabled         =   False
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   1
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   268
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   False
-      LockRight       =   False
-      LockTop         =   False
-      Scope           =   0
-      TabIndex        =   5
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   48
-      Transparent     =   False
-      Underline       =   False
-      Value           =   False
-      Visible         =   True
-      Width           =   100
-   End
-   Begin RadioButton drawtypebutton
-      AutoDeactivate  =   True
-      Bold            =   False
-      Caption         =   "TT"
+      Caption         =   "Teams"
       Enabled         =   True
       Height          =   20
       HelpTag         =   ""
       Index           =   2
       InitialParent   =   ""
       Italic          =   False
-      Left            =   380
+      Left            =   255
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
@@ -255,7 +225,7 @@ Begin Window newtourndialog
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   48
+      Top             =   49
       Transparent     =   False
       Underline       =   False
       Value           =   False
@@ -328,36 +298,6 @@ Begin Window newtourndialog
       Underline       =   False
       Visible         =   True
       Width           =   60
-   End
-   Begin RadioButton drawtypebutton
-      AutoDeactivate  =   True
-      Bold            =   False
-      Caption         =   "WW"
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   3
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   492
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   False
-      LockRight       =   False
-      LockTop         =   False
-      Scope           =   0
-      TabIndex        =   7
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   48
-      Transparent     =   False
-      Underline       =   False
-      Value           =   False
-      Visible         =   True
-      Width           =   100
    End
 End
 #tag EndWindow

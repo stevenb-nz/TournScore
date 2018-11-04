@@ -32,7 +32,6 @@ Begin Window nofiledialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "New"
-      ControlOrder    =   "0"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -46,6 +45,7 @@ Begin Window nofiledialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
@@ -64,7 +64,6 @@ Begin Window nofiledialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "Open"
-      ControlOrder    =   "1"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -78,6 +77,7 @@ Begin Window nofiledialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
@@ -96,7 +96,6 @@ Begin Window nofiledialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "Quit"
-      ControlOrder    =   "2"
       Default         =   True
       Enabled         =   True
       Height          =   20
@@ -110,6 +109,7 @@ Begin Window nofiledialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
