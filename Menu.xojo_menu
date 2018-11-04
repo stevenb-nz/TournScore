@@ -1,13 +1,6 @@
 #tag Menu
 Begin Menu Menu
-   Begin MenuItem UntitledMenu11
-      SpecialMenu = 0
-      Text = ""
-      Index = -2147483648
-      AutoEnable = False
-      Visible = True
-   End
-   Begin MenuItem UntitledMenu8
+   Begin MenuItem FileMenu
       SpecialMenu = 0
       Text = "File"
       Index = -2147483648
@@ -40,10 +33,10 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu10
+      Begin MenuItem UntitledSeparator
          SpecialMenu = 0
          Text = "-"
-         Index = -2147483648
+         Index = 3
          AutoEnable = False
          Visible = True
       End
@@ -64,10 +57,10 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu9
+      Begin MenuItem UntitledSeparator
          SpecialMenu = 0
          Text = "-"
-         Index = -2147483648
+         Index = 4
          AutoEnable = False
          Visible = True
       End
@@ -81,15 +74,8 @@ Begin Menu Menu
          AutoEnable = True
          Visible = True
       End
-      Begin MenuItem UntitledMenu19
-         SpecialMenu = 0
-         Text = ""
-         Index = -2147483648
-         AutoEnable = False
-         Visible = True
-      End
    End
-   Begin MenuItem UntitledMenu6
+   Begin MenuItem EditMenu
       SpecialMenu = 0
       Text = "Edit"
       Index = -2147483648
@@ -105,10 +91,10 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu7
+      Begin MenuItem UntitledSeparator
          SpecialMenu = 0
          Text = "-"
-         Index = -2147483648
+         Index = 5
          AutoEnable = False
          Visible = True
       End
@@ -149,15 +135,8 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu18
-         SpecialMenu = 0
-         Text = ""
-         Index = -2147483648
-         AutoEnable = False
-         Visible = True
-      End
    End
-   Begin MenuItem UntitledMenu4
+   Begin MenuItem AddMenu
       SpecialMenu = 0
       Text = "Add"
       Index = -2147483648
@@ -193,10 +172,10 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu5
+      Begin MenuItem UntitledSeparator
          SpecialMenu = 0
          Text = "-"
-         Index = -2147483648
+         Index = 6
          AutoEnable = False
          Visible = True
       End
@@ -208,13 +187,6 @@ Begin Menu Menu
          Shortcut = "Cmd+D"
          MenuModifier = True
          AutoEnable = False
-         Visible = True
-      End
-      Begin MenuItem UntitledMenu17
-         SpecialMenu = 0
-         Text = ""
-         Index = -2147483648
-         AutoEnable = True
          Visible = True
       End
    End
@@ -246,7 +218,7 @@ Begin Menu Menu
          Visible = True
       End
    End
-   Begin MenuItem UntitledMenu3
+   Begin MenuItem ImportMenu
       SpecialMenu = 0
       Text = "Import"
       Index = -2147483648
@@ -269,13 +241,6 @@ Begin Menu Menu
       Begin MenuItem ImportRounds
          SpecialMenu = 0
          Text = "Rounds..."
-         Index = -2147483648
-         AutoEnable = False
-         Visible = True
-      End
-      Begin MenuItem UntitledMenu16
-         SpecialMenu = 0
-         Text = ""
          Index = -2147483648
          AutoEnable = False
          Visible = True
@@ -308,20 +273,27 @@ Begin Menu Menu
          AutoEnable = True
          Visible = True
       End
-      Begin MenuItem UntitledMenu15
-         SpecialMenu = 0
-         Text = ""
-         Index = -2147483648
-         AutoEnable = True
-         Visible = True
-      End
    End
-   Begin MenuItem UntitledMenu0
+   Begin MenuItem WindowMenu
       SpecialMenu = 0
       Text = "Window"
       Index = -2147483648
       AutoEnable = False
       Visible = True
+      Begin AppleMenuItem AppleAboutTournamentScorer
+         SpecialMenu = 0
+         Text = "About Tournament Scorer"
+         Index = -2147483648
+         AutoEnable = False
+         Visible = True
+      End
+      Begin MenuItem UntitledSeparator
+         SpecialMenu = 0
+         Text = "-"
+         Index = 0
+         AutoEnable = True
+         Visible = True
+      End
       Begin MenuItem WindowTournament
          SpecialMenu = 0
          Text = "Tournament"
@@ -353,10 +325,10 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu2
+      Begin MenuItem UntitledSeparator
          SpecialMenu = 0
          Text = "-"
-         Index = -2147483648
+         Index = 1
          AutoEnable = False
          Visible = True
       End
@@ -370,10 +342,10 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu1
+      Begin MenuItem UntitledSeparator
          SpecialMenu = 0
          Text = "-"
-         Index = -2147483648
+         Index = 2
          AutoEnable = False
          Visible = True
       End
@@ -387,34 +359,6 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin MenuItem UntitledMenu14
-         SpecialMenu = 0
-         Text = ""
-         Index = -2147483648
-         AutoEnable = False
-         Visible = True
-      End
-      Begin AppleMenuItem AppleAboutTournamentScorer
-         SpecialMenu = 0
-         Text = "About Tournament Scorer"
-         Index = -2147483648
-         AutoEnable = False
-         Visible = True
-      End
-      Begin AppleMenuItem UntitledMenu13
-         SpecialMenu = 0
-         Text = ""
-         Index = -2147483648
-         AutoEnable = False
-         Visible = True
-      End
-   End
-   Begin MenuItem UntitledMenu12
-      SpecialMenu = 0
-      Text = ""
-      Index = -2147483648
-      AutoEnable = True
-      Visible = True
    End
 End
 #tag EndMenu
