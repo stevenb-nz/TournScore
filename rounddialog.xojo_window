@@ -492,6 +492,7 @@ End
 		  dim check as boolean
 		  
 		  g = new R0und
+		  g.drawtype = drawtypePopupMenu.List(drawtypePopupMenu.ListIndex)
 		  g.starttime = stfield.text
 		  g.spotprize = spfield.text
 		  check = ParseDate(dfield.text, d)
