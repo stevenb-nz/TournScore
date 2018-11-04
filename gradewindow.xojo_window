@@ -2,7 +2,6 @@
 Begin Window gradewindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -35,7 +34,6 @@ Begin Window gradewindow
       ColumnCount     =   3
       ColumnsResizable=   False
       ColumnWidths    =   "15%,70%,15%"
-      ControlOrder    =   "0"
       DataField       =   ""
       DataSource      =   ""
       DefaultRowHeight=   -1
@@ -60,6 +58,7 @@ Begin Window gradewindow
       LockRight       =   True
       LockTop         =   True
       RequiresSelection=   False
+      Scope           =   0
       ScrollbarHorizontal=   False
       ScrollBarVertical=   True
       SelectionType   =   0
@@ -71,6 +70,7 @@ Begin Window gradewindow
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True

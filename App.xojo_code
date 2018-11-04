@@ -451,6 +451,7 @@ Inherits Application
 			end if
 			rounddialog.gnfield.text = str(ubound(app.roundlist)+2)
 			rounddialog.showmodal
+			
 		End Function
 	#tag EndMenuHandler
 

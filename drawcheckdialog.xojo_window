@@ -2,7 +2,6 @@
 Begin Window drawcheckdialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -93,6 +92,7 @@ Begin Window drawcheckdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   47
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -126,6 +126,7 @@ Begin Window drawcheckdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   47
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60

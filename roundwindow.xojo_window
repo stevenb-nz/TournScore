@@ -2,7 +2,6 @@
 Begin Window roundwindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -26,16 +25,15 @@ Begin Window roundwindow
    Resizeable      =   True
    Title           =   "Round List"
    Visible         =   True
-   Width           =   400
+   Width           =   475
    Begin ListBox roundlist
       AutoDeactivate  =   True
       AutoHideScrollbars=   True
       Bold            =   False
       Border          =   True
-      ColumnCount     =   4
+      ColumnCount     =   5
       ColumnsResizable=   False
-      ColumnWidths    =   "20%,20%,20%,40%"
-      ControlOrder    =   "0"
+      ColumnWidths    =   "16.5%,16.5%,16.5%,16.5%,34%"
       DataField       =   ""
       DataSource      =   ""
       DefaultRowHeight=   -1
@@ -51,7 +49,7 @@ Begin Window roundwindow
       Hierarchical    =   False
       Index           =   -2147483648
       InitialParent   =   ""
-      InitialValue    =   "Round#	Date	Start Time	Spot Prize\r"
+      InitialValue    =   "Round#	Draw Type	Date	Start Time	Spot Prize\n"
       Italic          =   False
       Left            =   13
       LockBottom      =   True
@@ -60,6 +58,7 @@ Begin Window roundwindow
       LockRight       =   True
       LockTop         =   True
       RequiresSelection=   False
+      Scope           =   0
       ScrollbarHorizontal=   False
       ScrollBarVertical=   True
       SelectionType   =   0
@@ -71,10 +70,11 @@ Begin Window roundwindow
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
-      Width           =   375
+      Width           =   450
       _ScrollOffset   =   0
       _ScrollWidth    =   -1
    End
@@ -89,10 +89,12 @@ End
 		  roundlist.deleteAllRows
 		  for i=0 to ubound(app.roundlist)
 		    roundlist.addrow str(i+1)
-		    roundlist.cell(i,1) = app.roundlist(i).rounddate.longdate
-		    roundlist.cell(i,2) = app.roundlist(i).starttime
-		    roundlist.cell(i,3) = app.roundlist(i).spotprize
+		    roundlist.cell(i,1) = app.roundlist(i).drawtype
+		    roundlist.cell(i,2) = app.roundlist(i).rounddate.ShortDate
+		    roundlist.cell(i,3) = app.roundlist(i).starttime
+		    roundlist.cell(i,4) = app.roundlist(i).spotprize
 		  next
+		  
 		End Sub
 	#tag EndEvent
 

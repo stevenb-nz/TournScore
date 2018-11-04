@@ -2,7 +2,6 @@
 Begin Window playerdialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -35,7 +34,6 @@ Begin Window playerdialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "0"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -54,12 +52,9 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
@@ -69,6 +64,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -82,7 +78,6 @@ Begin Window playerdialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "1"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -101,12 +96,9 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
@@ -116,6 +108,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   49
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -129,7 +122,6 @@ Begin Window playerdialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "2"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -148,12 +140,9 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
@@ -163,6 +152,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   88
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -176,7 +166,6 @@ Begin Window playerdialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "3"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -195,12 +184,9 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   3
       TabPanelIndex   =   0
       TabStop         =   True
@@ -210,6 +196,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   126
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -221,7 +208,6 @@ Begin Window playerdialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "OK"
-      ControlOrder    =   "4"
       Default         =   True
       Enabled         =   False
       Height          =   20
@@ -235,6 +221,7 @@ Begin Window playerdialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   4
       TabPanelIndex   =   0
       TabStop         =   True
@@ -242,6 +229,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   202
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -252,7 +240,6 @@ Begin Window playerdialog
       ButtonStyle     =   "0"
       Cancel          =   True
       Caption         =   "Cancel"
-      ControlOrder    =   "5"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -266,6 +253,7 @@ Begin Window playerdialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
@@ -273,6 +261,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   202
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -280,7 +269,6 @@ Begin Window playerdialog
    Begin Label StaticText1
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "6"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -296,6 +284,7 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   6
       TabPanelIndex   =   0
@@ -315,7 +304,6 @@ Begin Window playerdialog
    Begin Label StaticText3
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "7"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -331,6 +319,7 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   7
       TabPanelIndex   =   0
@@ -350,7 +339,6 @@ Begin Window playerdialog
    Begin Label StaticText4
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "8"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -366,6 +354,7 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   8
       TabPanelIndex   =   0
@@ -390,7 +379,6 @@ Begin Window playerdialog
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      ControlOrder    =   "9"
       CueText         =   ""
       DataField       =   ""
       DataSource      =   ""
@@ -409,12 +397,9 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      Scope           =   0
       TabIndex        =   9
       TabPanelIndex   =   0
       TabStop         =   True
@@ -424,6 +409,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   164
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -432,7 +418,6 @@ Begin Window playerdialog
    Begin Label StaticText5
       AutoDeactivate  =   True
       Bold            =   False
-      ControlOrder    =   "10"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
@@ -448,6 +433,7 @@ Begin Window playerdialog
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
+      Scope           =   0
       Selectable      =   False
       TabIndex        =   10
       TabPanelIndex   =   0
@@ -470,7 +456,6 @@ Begin Window playerdialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "F Last"
-      ControlOrder    =   "11"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -484,6 +469,7 @@ Begin Window playerdialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   11
       TabPanelIndex   =   0
       TabStop         =   True
@@ -491,6 +477,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   50
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -501,7 +488,6 @@ Begin Window playerdialog
       ButtonStyle     =   "0"
       Cancel          =   False
       Caption         =   "First L"
-      ControlOrder    =   "12"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -515,6 +501,7 @@ Begin Window playerdialog
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
+      Scope           =   0
       TabIndex        =   12
       TabPanelIndex   =   0
       TabStop         =   True
@@ -522,6 +509,7 @@ Begin Window playerdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   50
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80

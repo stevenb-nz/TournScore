@@ -2,7 +2,6 @@
 Begin Window nofiledialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   False
    Compatibility   =   ""
    Composite       =   False
@@ -54,6 +53,7 @@ Begin Window nofiledialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -85,6 +85,7 @@ Begin Window nofiledialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   42
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -116,6 +117,7 @@ Begin Window nofiledialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   73
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60

@@ -53,6 +53,7 @@ Begin Window newtourndialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   86
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -130,6 +131,7 @@ Begin Window newtourndialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   13
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -194,6 +196,7 @@ Begin Window newtourndialog
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   48
+      Transparent     =   False
       Underline       =   False
       Value           =   True
       Visible         =   True
@@ -223,6 +226,7 @@ Begin Window newtourndialog
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   48
+      Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
@@ -252,6 +256,7 @@ Begin Window newtourndialog
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   48
+      Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
@@ -319,6 +324,7 @@ Begin Window newtourndialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   86
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -347,6 +353,7 @@ Begin Window newtourndialog
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   48
+      Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True

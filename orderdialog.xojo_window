@@ -2,7 +2,6 @@
 Begin Window orderdialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -54,6 +53,7 @@ Begin Window orderdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   110
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   135
@@ -85,6 +85,7 @@ Begin Window orderdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   14
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   135
@@ -107,6 +108,7 @@ Begin Window orderdialog
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   86
+      Transparent     =   False
       Visible         =   True
       Width           =   175
    End

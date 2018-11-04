@@ -2,7 +2,6 @@
 Begin Window coinflipdialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -54,6 +53,7 @@ Begin Window coinflipdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   46
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   69
@@ -85,6 +85,7 @@ Begin Window coinflipdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   46
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   69

@@ -2,7 +2,6 @@
 Begin Window constantpdialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -75,6 +74,7 @@ Begin Window constantpdialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   40
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True

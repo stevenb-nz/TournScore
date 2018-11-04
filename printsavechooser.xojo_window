@@ -2,7 +2,6 @@
 Begin Window printsavechooser
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -51,6 +50,7 @@ Begin Window printsavechooser
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   37
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   232
@@ -78,6 +78,7 @@ Begin Window printsavechooser
          TextSize        =   12.0
          TextUnit        =   0
          Top             =   67
+         Transparent     =   False
          Underline       =   False
          Value           =   True
          Visible         =   True
@@ -107,6 +108,7 @@ Begin Window printsavechooser
          TextSize        =   12.0
          TextUnit        =   0
          Top             =   88
+         Transparent     =   False
          Underline       =   False
          Value           =   False
          Visible         =   True
@@ -136,6 +138,7 @@ Begin Window printsavechooser
          TextSize        =   12.0
          TextUnit        =   0
          Top             =   109
+         Transparent     =   False
          Underline       =   False
          Value           =   False
          Visible         =   True
@@ -169,6 +172,7 @@ Begin Window printsavechooser
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   137
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60

@@ -2,7 +2,6 @@
 Begin Window gamedialog
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   BalloonHelp     =   ""
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
@@ -54,12 +53,12 @@ Begin Window gamedialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
+      Multiline       =   "False"
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      ScrollbarHorizontal=   "False"
+      ScrollbarVertical=   "True"
+      Styled          =   "False"
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
@@ -69,6 +68,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   73
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -101,12 +101,12 @@ Begin Window gamedialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
+      Multiline       =   "False"
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      ScrollbarHorizontal=   "False"
+      ScrollbarVertical=   "True"
+      Styled          =   "False"
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
@@ -116,6 +116,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   73
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -148,12 +149,12 @@ Begin Window gamedialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
+      Multiline       =   "False"
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      ScrollbarHorizontal=   "False"
+      ScrollbarVertical=   "True"
+      Styled          =   "False"
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
@@ -163,6 +164,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   102
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -195,12 +197,12 @@ Begin Window gamedialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
+      Multiline       =   "False"
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      ScrollbarHorizontal=   "False"
+      ScrollbarVertical=   "True"
+      Styled          =   "False"
       TabIndex        =   3
       TabPanelIndex   =   0
       TabStop         =   True
@@ -210,6 +212,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   102
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -242,6 +245,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   182
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -273,6 +277,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   182
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -584,6 +589,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   182
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   60
@@ -615,18 +621,20 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   45
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   88
    End
    Begin Timer Timer1
       ControlOrder    =   "16"
+      Enabled         =   True
       Index           =   -2147483648
       InitialParent   =   ""
       LockedInPosition=   False
       Mode            =   2
       Period          =   50
-      TabPanelIndex   =   "0"
+      TabPanelIndex   =   0
    End
    Begin TextField spreadfield
       AcceptTabs      =   False
@@ -655,12 +663,12 @@ Begin Window gamedialog
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
-      Multiline       =   False
+      Multiline       =   "False"
       Password        =   False
       ReadOnly        =   False
-      ScrollbarHorizontal=   False
-      ScrollbarVertical=   True
-      Styled          =   False
+      ScrollbarHorizontal=   "False"
+      ScrollbarVertical=   "True"
+      Styled          =   "False"
       TabIndex        =   16
       TabPanelIndex   =   0
       TabStop         =   True
@@ -670,6 +678,7 @@ Begin Window gamedialog
       TextSize        =   12.0
       TextUnit        =   0
       Top             =   144
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -699,6 +708,7 @@ Begin Window gamedialog
       TextSize        =   10.0
       TextUnit        =   0
       Top             =   63
+      Transparent     =   False
       Underline       =   False
       Value           =   True
       Visible         =   True
@@ -728,6 +738,7 @@ Begin Window gamedialog
       TextSize        =   10.0
       TextUnit        =   0
       Top             =   55
+      Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
@@ -757,6 +768,7 @@ Begin Window gamedialog
       TextSize        =   10.0
       TextUnit        =   0
       Top             =   75
+      Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
@@ -786,6 +798,7 @@ Begin Window gamedialog
       TextSize        =   10.0
       TextUnit        =   0
       Top             =   110
+      Transparent     =   False
       Underline       =   False
       Value           =   True
       Visible         =   True
@@ -815,6 +828,7 @@ Begin Window gamedialog
       TextSize        =   10.0
       TextUnit        =   0
       Top             =   122
+      Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
@@ -844,6 +858,7 @@ Begin Window gamedialog
       TextSize        =   10.0
       TextUnit        =   0
       Top             =   102
+      Transparent     =   False
       Underline       =   False
       Value           =   False
       Visible         =   True
@@ -873,6 +888,7 @@ Begin Window gamedialog
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   55
+      Transparent     =   False
       Underline       =   False
       Visible         =   False
       Width           =   128
@@ -901,6 +917,7 @@ Begin Window gamedialog
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   99
+      Transparent     =   False
       Underline       =   False
       Visible         =   False
       Width           =   128
