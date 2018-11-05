@@ -117,6 +117,7 @@ Inherits Application
 		  i = val(t.readline)
 		  for j = 0 to i
 		    ro = new r0und
+		    ro.drawn = false
 		    s = t.readline
 		    check = ParseDate(s, d)
 		    ro.rounddate = d
@@ -196,6 +197,7 @@ Inherits Application
 		      ga.played = true
 		    end if
 		    ga.round = val(t.readline)
+		    roundlist(ga.round).drawn = true
 		    ga.table = val(t.readline)
 		    gamelist.append ga
 		  next

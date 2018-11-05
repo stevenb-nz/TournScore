@@ -1,6 +1,10 @@
 #tag Class
 Protected Class R0und
 	#tag Property, Flags = &h0
+		drawn As Boolean
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
 		drawtype As String
 	#tag EndProperty
 
