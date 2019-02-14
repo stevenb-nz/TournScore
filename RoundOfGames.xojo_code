@@ -1,5 +1,5 @@
 #tag Class
-Protected Class R0und
+Protected Class RoundOfGames
 	#tag Property, Flags = &h0
 		drawn As Boolean
 	#tag EndProperty
@@ -72,6 +72,11 @@ Protected Class R0und
 			Group="Behavior"
 			Type="String"
 			EditorType="MultiLineEditor"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="drawn"
+			Group="Behavior"
+			Type="Boolean"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class

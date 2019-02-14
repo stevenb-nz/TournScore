@@ -90,7 +90,7 @@ Inherits Application
 		  dim s as string
 		  dim d as date
 		  dim check as boolean
-		  dim ro as r0und
+		  dim ro as RoundOfGames
 		  dim pl as player
 		  dim gr as grade
 		  dim ga as game
@@ -116,7 +116,7 @@ Inherits Application
 		  end if
 		  i = val(t.readline)
 		  for j = 0 to i
-		    ro = new r0und
+		    ro = new RoundOfGames
 		    ro.drawn = false
 		    s = t.readline
 		    check = ParseDate(s, d)
@@ -773,7 +773,7 @@ Inherits Application
 		  dim d as date
 		  dim f as folderItem
 		  dim g as grade
-		  dim h as R0und
+		  dim h as RoundOfGames
 		  dim i,j as integer
 		  dim savecheck as boolean
 		  
@@ -804,7 +804,7 @@ Inherits Application
 		          app.gradelist.append g
 		          for i = 1 to 3
 		            for j = 1 to 8
-		              h = new R0und
+		              h = new RoundOfGames
 		              if j > 4 then
 		                h.starttime = str(j-4)+".30"
 		              else
@@ -1333,7 +1333,7 @@ Inherits Application
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
-		roundlist(0) As r0und
+		roundlist(0) As RoundOfGames
 	#tag EndProperty
 
 	#tag Property, Flags = &h0

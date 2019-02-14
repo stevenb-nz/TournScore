@@ -487,11 +487,11 @@ End
 #tag Events PushButton1
 	#tag Event
 		Sub Action()
-		  dim g as R0und
+		  dim g as RoundOfGames
 		  dim d as date
 		  dim check as boolean
 		  
-		  g = new R0und
+		  g = new RoundOfGames
 		  g.drawtype = drawtypePopupMenu.List(drawtypePopupMenu.ListIndex)
 		  g.starttime = stfield.text
 		  g.spotprize = spfield.text

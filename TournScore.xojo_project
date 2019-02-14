@@ -1,5 +1,5 @@
 Type=Desktop
-RBProjectVersion=2018.03
+RBProjectVersion=2018.04
 MinIDEVersion=20070100
 FileTypeSet=FileTypes;FileTypes.xojo_filetypeset;&h00000000096B2778;&h0000000000000000;false
 MenuBar=Menu;Menu.xojo_menu;&h0000000000000002;&h0000000000000000;false
@@ -14,7 +14,7 @@ Window=rounddialog;rounddialog.xojo_window;&h000000000000000F;&h0000000000000000
 Window=roundwindow;roundwindow.xojo_window;&h0000000000000010;&h0000000000000000;false
 Class=Game;Game.xojo_code;&h0000000000000011;&h0000000000000000;false
 Class=Grade;Grade.xojo_code;&h0000000000000012;&h0000000000000000;false
-Class=R0und;R0und.xojo_code;&h0000000000000013;&h0000000000000000;false
+Class=RoundOfGames;RoundOfGames.xojo_code;&h0000000000000013;&h0000000000000000;false
 Class=Player;Player.xojo_code;&h0000000000000014;&h0000000000000000;false
 Window=currentroundwindow;currentroundwindow.xojo_window;&h0000000000000015;&h0000000000000000;false
 Window=gamedialog;gamedialog.xojo_window;&h0000000000000017;&h0000000000000000;false
