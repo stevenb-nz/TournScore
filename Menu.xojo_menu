@@ -26,6 +26,13 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
+      Begin MenuItem FileImportLandon
+         SpecialMenu = 0
+         Text = "Import Landon..."
+         Index = -2147483648
+         AutoEnable = False
+         Visible = True
+      End
       Begin MenuItem FileSaveAs
          SpecialMenu = 0
          Text = "Save As..."
