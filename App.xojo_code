@@ -458,6 +458,12 @@ Inherits Application
 	#tag EndMenuHandler
 
 	#tag MenuHandler
+		Function FileImportLandon() As Boolean Handles FileImportLandon.Action
+			newtournfilelandon(true)
+		End Function
+	#tag EndMenuHandler
+
+	#tag MenuHandler
 		Function FileNew() As Boolean Handles FileNew.Action
 			newtournfile(true)
 		End Function
@@ -769,6 +775,73 @@ Inherits Application
 
 	#tag Method, Flags = &h0
 		Sub newtournfile(newtourn as boolean)
+		  dim check as Boolean
+		  dim d as date
+		  dim f as folderItem
+		  dim g as grade
+		  dim h as RoundOfGames
+		  dim i,j as integer
+		  dim savecheck as boolean
+		  
+		  if currenttournfile <> nil then
+		    savetournfile
+		  end if
+		  ntfcancheck = false
+		  newtournapp = newtourn
+		  newtourndialog.showmodal
+		  if ntfcancheck then
+		    f = getsaveFolderItem("tournamentfile",tname+".trn")
+		    if f<> nil then
+		      currenttournfile = f
+		      if newtourn then
+		        while windowcount > 0
+		          window(0).close
+		        wend
+		        redim gamelist(-1)
+		        redim gradelist(-1)
+		        redim playerlist(-1)
+		        redim roundlist(-1)
+		        if drawtype = 2 then
+		          g = new grade
+		          g.gradename = "TT"
+		          g.numplayers = 24
+		          g.firsttable = 1
+		          g.lasttable = 12
+		          app.gradelist.append g
+		          for i = 1 to 3
+		            for j = 1 to 8
+		              h = new RoundOfGames
+		              if j > 4 then
+		                h.starttime = str(j-4)+".30"
+		              else
+		                h.starttime = str(j+8)+".00"
+		              end if
+		              h.spotprize = "-"
+		              check = ParseDate(str(i+13)+"/8/2010", d)
+		              if check then
+		                h.rounddate = d
+		              end if
+		              app.roundlist.append h
+		            next
+		          next
+		        end if
+		        keepcheck = false
+		      end if
+		    else
+		      if currenttournfile = nil then
+		        nofiledialog.showmodal
+		      end if
+		    end if
+		  else
+		    if currenttournfile = nil then
+		      nofiledialog.showmodal
+		    end if
+		  end if
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub newtournfilelandon(newtourn as boolean)
 		  dim check as Boolean
 		  dim d as date
 		  dim f as folderItem
