@@ -913,23 +913,13 @@ Inherits Application
 		  
 		  f = getopenFolderItem("tournamentfile")
 		  if f<>nil then
-		    #if targetmacOS then
-		      if f.maccreator = "NZTS" then
-		        opendocument(f)
-		      else
-		        if currenttournfile = nil then
-		          nofiledialog.showmodal
-		        end if
+		    if right(f.name,4)=".trn" then
+		      opendocument(f)
+		    else
+		      if currenttournfile = nil then
+		        nofiledialog.showmodal
 		      end if
-		    #else
-		      if right(f.name,4)=".trn" then
-		        opendocument(f)
-		      else
-		        if currenttournfile = nil then
-		          nofiledialog.showmodal
-		        end if
-		      end if
-		    #endif
+		    end if
 		  else
 		    if currenttournfile = nil then
 		      nofiledialog.showmodal
